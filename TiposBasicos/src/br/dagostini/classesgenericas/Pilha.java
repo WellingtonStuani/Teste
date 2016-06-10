@@ -1,13 +1,14 @@
 package br.dagostini.classesgenericas;
 
 /**
- * Uma interface genérica possui um parâmetro T que será definido em tempo de
- * implementação da interface ou de execução.
+ * Uma interface genï¿½rica possui um parï¿½metro T que serï¿½ definido em tempo de
+ * implementaï¿½ï¿½o da interface ou de execuï¿½ï¿½o.
  *
  */
 public interface Pilha<T> {
 
 	public void guardar(T t);
+
 
 	public T removerUltimo();
 
