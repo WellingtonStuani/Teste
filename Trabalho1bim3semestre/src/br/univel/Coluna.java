@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 	public @interface Coluna {
 
 
-		String nome() default "";
+		String nome() default " ";
 
 		int tamanho() default 255;
 		
